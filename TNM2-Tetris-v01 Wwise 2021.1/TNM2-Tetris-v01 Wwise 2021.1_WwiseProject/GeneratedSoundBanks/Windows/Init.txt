@@ -1,0 +1,22 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1217496515	LineMultiple			\TNM-sp24\LineMultiple	
+	3306375003	Lines_Cleared			\TNM-sp24\Lines_Cleared	
+
+Switch	ID	Name	Switch Group			Notes
+	1980385096	LM_03	LineMultiple			
+	1980385097	LM_02	LineMultiple			
+	1980385098	LM_01	LineMultiple			
+	1980385103	LM_04	LineMultiple			
+	4181236000	LC_3	Lines_Cleared			
+	4181236001	LC_2	Lines_Cleared			
+	4181236002	LC_1	Lines_Cleared			
+	4181236003	LC_0	Lines_Cleared			
+	4181236007	LC_4	Lines_Cleared			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

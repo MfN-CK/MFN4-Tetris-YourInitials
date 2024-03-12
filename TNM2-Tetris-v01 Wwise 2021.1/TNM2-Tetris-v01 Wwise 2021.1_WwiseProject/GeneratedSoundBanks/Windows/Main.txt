@@ -1,0 +1,49 @@
+Event	ID	Name			Wwise Object Path	Notes
+	104485862	move_left			\Default Work Unit\move_left	
+	1281810935	Start			\Default Work Unit\Start	
+	1302771492	rotate			\Default Work Unit\rotate	
+	1434329938	hard_drop			\Default Work Unit\hard_drop	
+	2156988709	move_right			\Default Work Unit\move_right	
+	4262211538	line_cleared			\Default Work Unit\line_cleared	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1217496515	LineMultiple			\TNM-sp24\LineMultiple	
+
+Switch	ID	Name	Switch Group			Notes
+	1980385096	LM_03	LineMultiple			
+	1980385097	LM_02	LineMultiple			
+	1980385098	LM_01	LineMultiple			
+	1980385103	LM_04	LineMultiple			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1763793220	Line_Cleared_Multi			\TNM_SP24\Line_Cleared_Multi	
+	4262211538	Line_Cleared			\TNM_SP24\Line_Cleared	
+
+Trigger	ID	Name			Wwise Object Path	Notes
+	104485862	move_left			\TNM-SP24\move_left	
+	1302771492	rotate			\TNM-SP24\rotate	
+	2156988709	move_right			\TNM-SP24\move_right	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	67253447	Rhodes	C:\Users\Chris\Documents\GIT\MFN-SP24\TNM2-SP24-CK-GIT\TNM2-Tetris-v01 Wwise 2021.1\TNM2-Tetris-v01 Wwise 2021.1_WwiseProject\.cache\Windows\SFX\MFN4-SP24-TET-Rhodes-Chord-03_D79FB2B7.wem		\Interactive Music Hierarchy\TNMSP24\v01\Stinger-Rotate\Rhodes		616752
+	81110922	Layer03	C:\Users\Chris\Documents\GIT\MFN-SP24\TNM2-SP24-CK-GIT\TNM2-Tetris-v01 Wwise 2021.1\TNM2-Tetris-v01 Wwise 2021.1_WwiseProject\.cache\Windows\SFX\MUS-Quest-Loop-Layer03_D79FB2B7.wem		\Interactive Music Hierarchy\TNMSP24\v01\Loop\Layer03		2731480
+	107934074	Rhodes	C:\Users\Chris\Documents\GIT\MFN-SP24\TNM2-SP24-CK-GIT\TNM2-Tetris-v01 Wwise 2021.1\TNM2-Tetris-v01 Wwise 2021.1_WwiseProject\.cache\Windows\SFX\MFN4-SP24-TET-Rhodes-Chord-02_D79FB2B7.wem		\Interactive Music Hierarchy\TNMSP24\v01\Stinger-Rotate\Rhodes		463764
+	213578634	Vox Samples	C:\Users\Chris\Documents\GIT\MFN-SP24\TNM2-SP24-CK-GIT\TNM2-Tetris-v01 Wwise 2021.1\TNM2-Tetris-v01 Wwise 2021.1_WwiseProject\.cache\Windows\SFX\vox04_D79FB2B7.wem		\Interactive Music Hierarchy\TNMSP24\v01\Stinger-Rotate\Vox Samples		59218
+	220490811	1	C:\Users\Chris\Documents\GIT\MFN-SP24\TNM2-SP24-CK-GIT\TNM2-Tetris-v01 Wwise 2021.1\TNM2-Tetris-v01 Wwise 2021.1_WwiseProject\.cache\Windows\SFX\ds_china_1228CDCA.wem		\Actor-Mixer Hierarchy\TNMSP24\LIneCleared Stinger\1		349148
+	288855412	Vox Samples	C:\Users\Chris\Documents\GIT\MFN-SP24\TNM2-SP24-CK-GIT\TNM2-Tetris-v01 Wwise 2021.1\TNM2-Tetris-v01 Wwise 2021.1_WwiseProject\.cache\Windows\SFX\vox05_D79FB2B7.wem		\Interactive Music Hierarchy\TNMSP24\v01\Stinger-Rotate\Vox Samples		61572
+	301458377	MFN306-RPG-CK-Day-Loop-v1	C:\Users\Chris\Documents\GIT\MFN-SP24\TNM2-SP24-CK-GIT\TNM2-Tetris-v01 Wwise 2021.1\TNM2-Tetris-v01 Wwise 2021.1_WwiseProject\.cache\Windows\SFX\MFN306-RPG-CK-Night-Intro-124bpm-v1_D79FB2B7.wem		\Interactive Music Hierarchy\TNMSP24\v01\Intro\MFN306-RPG-CK-Day-Loop-v1		1572992
+	309385946	Vox Samples	C:\Users\Chris\Documents\GIT\MFN-SP24\TNM2-SP24-CK-GIT\TNM2-Tetris-v01 Wwise 2021.1\TNM2-Tetris-v01 Wwise 2021.1_WwiseProject\.cache\Windows\SFX\vox02_D79FB2B7.wem		\Interactive Music Hierarchy\TNMSP24\v01\Stinger-Rotate\Vox Samples		22422
+	392001094	Layer02	C:\Users\Chris\Documents\GIT\MFN-SP24\TNM2-SP24-CK-GIT\TNM2-Tetris-v01 Wwise 2021.1\TNM2-Tetris-v01 Wwise 2021.1_WwiseProject\.cache\Windows\SFX\MFN306-RPG-CK-Night-Loop-124bpm-v1_D79FB2B7.wem		\Interactive Music Hierarchy\TNMSP24\v01\Loop\Layer02		2731480
+	442698993	Marimba_p_G3	C:\Users\Chris\Documents\GIT\MFN-SP24\TNM2-SP24-CK-GIT\TNM2-Tetris-v01 Wwise 2021.1\TNM2-Tetris-v01 Wwise 2021.1_WwiseProject\.cache\Windows\SFX\Marimba_p_G3_D79FB2B7.wem		\Interactive Music Hierarchy\TNMSP24\v01\Stinger-Move-Left\Marimba_p_G3		931456
+	474612100	Layer01	C:\Users\Chris\Documents\GIT\MFN-SP24\TNM2-SP24-CK-GIT\TNM2-Tetris-v01 Wwise 2021.1\TNM2-Tetris-v01 Wwise 2021.1_WwiseProject\.cache\Windows\SFX\MUS-Quest-Loop-Layer01_D79FB2B7.wem		\Interactive Music Hierarchy\TNMSP24\v01\Loop\Layer01		2731480
+	576839839	Rhodes	C:\Users\Chris\Documents\GIT\MFN-SP24\TNM2-SP24-CK-GIT\TNM2-Tetris-v01 Wwise 2021.1\TNM2-Tetris-v01 Wwise 2021.1_WwiseProject\.cache\Windows\SFX\MFN4-SP24-TET-Rhodes-Chord-01_D79FB2B7.wem		\Interactive Music Hierarchy\TNMSP24\v01\Stinger-Rotate\Rhodes		410636
+	690254163	Layer04	C:\Users\Chris\Documents\GIT\MFN-SP24\TNM2-SP24-CK-GIT\TNM2-Tetris-v01 Wwise 2021.1\TNM2-Tetris-v01 Wwise 2021.1_WwiseProject\.cache\Windows\SFX\MUS-Quest-Loop-Layer05-PercA_D79FB2B7.wem		\Interactive Music Hierarchy\TNMSP24\v01\Loop\Layer04		2731480
+	743031055	Vox Samples	C:\Users\Chris\Documents\GIT\MFN-SP24\TNM2-SP24-CK-GIT\TNM2-Tetris-v01 Wwise 2021.1\TNM2-Tetris-v01 Wwise 2021.1_WwiseProject\.cache\Windows\SFX\vox03_D79FB2B7.wem		\Interactive Music Hierarchy\TNMSP24\v01\Stinger-Rotate\Vox Samples		82120
+	777821602	4	C:\Users\Chris\Documents\GIT\MFN-SP24\TNM2-SP24-CK-GIT\TNM2-Tetris-v01 Wwise 2021.1\TNM2-Tetris-v01 Wwise 2021.1_WwiseProject\.cache\Windows\SFX\ds_china_845B1BEC.wem		\Actor-Mixer Hierarchy\TNMSP24\LIneCleared Stinger\4		984624
+	901192400	Rhodes	C:\Users\Chris\Documents\GIT\MFN-SP24\TNM2-SP24-CK-GIT\TNM2-Tetris-v01 Wwise 2021.1\TNM2-Tetris-v01 Wwise 2021.1_WwiseProject\.cache\Windows\SFX\MFN4-SP24-TET-Rhodes-Chord-04_D79FB2B7.wem		\Interactive Music Hierarchy\TNMSP24\v01\Stinger-Rotate\Rhodes		641820
+	945585764	Marimba_p_G3	C:\Users\Chris\Documents\GIT\MFN-SP24\TNM2-SP24-CK-GIT\TNM2-Tetris-v01 Wwise 2021.1\TNM2-Tetris-v01 Wwise 2021.1_WwiseProject\.cache\Windows\SFX\Marimba_p_C3_D79FB2B7.wem		\Interactive Music Hierarchy\TNMSP24\v01\Stinger-Move-Left\Marimba_p_G3		940864
+	948428810	2	C:\Users\Chris\Documents\GIT\MFN-SP24\TNM2-SP24-CK-GIT\TNM2-Tetris-v01 Wwise 2021.1\TNM2-Tetris-v01 Wwise 2021.1_WwiseProject\.cache\Windows\SFX\ds_china_47658CA0.wem		\Actor-Mixer Hierarchy\TNMSP24\LIneCleared Stinger\2		500180
+	969611478	3	C:\Users\Chris\Documents\GIT\MFN-SP24\TNM2-SP24-CK-GIT\TNM2-Tetris-v01 Wwise 2021.1\TNM2-Tetris-v01 Wwise 2021.1_WwiseProject\.cache\Windows\SFX\ds_china_7D43C525.wem		\Actor-Mixer Hierarchy\TNMSP24\LIneCleared Stinger\3		534376
+	993851525	ds_kick_big_amb	C:\Users\Chris\Documents\GIT\MFN-SP24\TNM2-SP24-CK-GIT\TNM2-Tetris-v01 Wwise 2021.1\TNM2-Tetris-v01 Wwise 2021.1_WwiseProject\.cache\Windows\SFX\ds_kick_big_amb_D79FB2B7.wem		\Interactive Music Hierarchy\TNMSP24\v01\Stinger-Hard-Drop\ds_kick_big_amb		303048
+	1014799372	Vox Samples	C:\Users\Chris\Documents\GIT\MFN-SP24\TNM2-SP24-CK-GIT\TNM2-Tetris-v01 Wwise 2021.1\TNM2-Tetris-v01 Wwise 2021.1_WwiseProject\.cache\Windows\SFX\vox01_D79FB2B7.wem		\Interactive Music Hierarchy\TNMSP24\v01\Stinger-Rotate\Vox Samples		63618
+

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DD9A0F56-2478-49AF-B653-9BCDBAC23E4D}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="TNMSP24" ID="{DD9A0F56-2478-49AF-B653-9BCDBAC23E4D}" PersistMode="Standalone">
+			<ChildrenList>
+				<BlendContainer Name="LineCleared" ID="{EAC120CF-2D9D-4CA2-9638-206551F9F8CC}" ShortID="746267616">
+					<PropertyList>
+						<Property Name="MakeUpGain" Type="Real64">
+							<ValueList>
+								<Value>3</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{529A9B9F-A3FF-4D4D-AF82-8B5E767CC6F3}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BC88E8-146F-4D92-8023-85012E91927C}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists/>
+					<BlendTrackList>
+						<BlendTrack Name="New Blend Track" ID="{80CFB9BA-3A60-4423-836F-3F64D2D67F02}" ShortID="1008920990">
+							<PropertyList>
+								<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="LayerCrossFadeControlInput">
+									<ObjectRef Name="Line_Cleared_Multi" ID="{17E1CA93-6046-433E-8A81-E246EE39C388}" WorkUnitID="{C7FF51C3-A9D5-44CF-8ED5-40EE82E8681D}"/>
+								</Reference>
+							</ReferenceList>
+						</BlendTrack>
+					</BlendTrackList>
+				</BlendContainer>
+				<SwitchContainer Name="LIneCleared Stinger" ID="{69AF3ED9-01AD-413E-A4BB-E70988272381}" ShortID="87565108">
+					<PropertyList>
+						<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{529A9B9F-A3FF-4D4D-AF82-8B5E767CC6F3}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="LM_01" ID="{083B6A30-D920-4D33-B4DA-61A3329CD6D2}" WorkUnitID="{342666FC-8A60-4BC6-B3EF-3C7162F6A2E4}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BC88E8-146F-4D92-8023-85012E91927C}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="LineMultiple" ID="{F1CAD303-C7C3-486A-BF50-EA879C06FA61}" WorkUnitID="{342666FC-8A60-4BC6-B3EF-3C7162F6A2E4}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="1" ID="{4A49F93C-A0B6-4E99-861C-F728E4A04AA6}" ShortID="572890843">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-1200</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{529A9B9F-A3FF-4D4D-AF82-8B5E767CC6F3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BC88E8-146F-4D92-8023-85012E91927C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ds_china" ID="{6DF29B33-67D8-4811-8878-D9A67B05CF11}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.386126124352298"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="1"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.97893552018009"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>ds_china.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="220490811"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="ds_china" ID="{6DF29B33-67D8-4811-8878-D9A67B05CF11}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="2" ID="{1CEDEB95-F112-48F4-BF1D-FA9FA5D6005B}" ShortID="943320925">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-700</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{529A9B9F-A3FF-4D4D-AF82-8B5E767CC6F3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BC88E8-146F-4D92-8023-85012E91927C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ds_china" ID="{AD55E0CE-5B5E-4ACD-947D-E75FC86B887B}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.846531531088074"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="1.34082978101998"/>
+										<Property Name="LoopBegin" Type="Real64" Value="1.45391181074456"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.83512803095189"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>ds_china.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="948428810"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="ds_china" ID="{AD55E0CE-5B5E-4ACD-947D-E75FC86B887B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="3" ID="{5C123F79-C7B7-4EFE-9D72-C7E924A21CA0}" ShortID="815670042">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{529A9B9F-A3FF-4D4D-AF82-8B5E767CC6F3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BC88E8-146F-4D92-8023-85012E91927C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ds_china" ID="{E8ABE0F8-2BEA-483F-9E94-4F41CF17E4D2}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="1.29885964998638"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="1.13082029724577"/>
+										<Property Name="LoopBegin" Type="Real64" Value="1.45391181074456"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="3.02898293905116"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>ds_china.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="969611478"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="ds_china" ID="{E8ABE0F8-2BEA-483F-9E94-4F41CF17E4D2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="4" ID="{2367809F-F8D9-4944-AEEA-997F85B2EC22}" ShortID="240601080">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>500</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{529A9B9F-A3FF-4D4D-AF82-8B5E767CC6F3}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{82BC88E8-146F-4D92-8023-85012E91927C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ds_china" ID="{624F9493-77FE-4DC2-BB84-AE9CE3DBAE6D}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.98384542432506"/>
+										<Property Name="LoopBegin" Type="Real64" Value="1.45391181074456"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>ds_china.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="777821602"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="ds_china" ID="{624F9493-77FE-4DC2-BB84-AE9CE3DBAE6D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="1" ID="{4A49F93C-A0B6-4E99-861C-F728E4A04AA6}"/>
+								<PropertyList>
+									<Property Name="ContinuePlay" Type="bool" Value="True"/>
+									<Property Name="FadeOutTime" Type="Real64">
+										<ValueList>
+											<Value>2</Value>
+										</ValueList>
+									</Property>
+								</PropertyList>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="3" ID="{5C123F79-C7B7-4EFE-9D72-C7E924A21CA0}"/>
+								<PropertyList>
+									<Property Name="ContinuePlay" Type="bool" Value="True"/>
+									<Property Name="FadeOutTime" Type="Real64">
+										<ValueList>
+											<Value>2</Value>
+										</ValueList>
+									</Property>
+								</PropertyList>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="2" ID="{1CEDEB95-F112-48F4-BF1D-FA9FA5D6005B}"/>
+								<PropertyList>
+									<Property Name="ContinuePlay" Type="bool" Value="True"/>
+									<Property Name="FadeOutTime" Type="Real64">
+										<ValueList>
+											<Value>2</Value>
+										</ValueList>
+									</Property>
+								</PropertyList>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="4" ID="{2367809F-F8D9-4944-AEEA-997F85B2EC22}"/>
+								<PropertyList>
+									<Property Name="ContinuePlay" Type="bool" Value="True"/>
+									<Property Name="FadeOutTime" Type="Real64">
+										<ValueList>
+											<Value>2</Value>
+										</ValueList>
+									</Property>
+								</PropertyList>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="LM_01" ID="{083B6A30-D920-4D33-B4DA-61A3329CD6D2}"/>
+								<ItemList>
+									<ItemRef Name="1" ID="{4A49F93C-A0B6-4E99-861C-F728E4A04AA6}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="LM_03" ID="{32651E3D-E698-48FD-B6B9-F39FAE9973AA}"/>
+								<ItemList>
+									<ItemRef Name="3" ID="{5C123F79-C7B7-4EFE-9D72-C7E924A21CA0}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="LM_04" ID="{58E0A970-AA62-4FD9-838D-BB813AC532CE}"/>
+								<ItemList>
+									<ItemRef Name="4" ID="{2367809F-F8D9-4944-AEEA-997F85B2EC22}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="LM_02" ID="{CAFEFEDB-F2F4-478C-B7E2-7AF69F1DD2EF}"/>
+								<ItemList>
+									<ItemRef Name="2" ID="{1CEDEB95-F112-48F4-BF1D-FA9FA5D6005B}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C6A8D556-AB31-417D-BC94-5AD5047958A1}" SchemaVersion="103">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{C6A8D556-AB31-417D-BC94-5AD5047958A1}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{747801D4-3588-404C-A9A1-CE693EFEEAFC}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="line_cleared" ID="{0AFF0EB6-489F-45DC-8FA7-EB0226A2D880}" WorkUnitID="{E8F42F31-3FC0-466A-BCAE-6AD409F07591}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Line_Cleared_Multi" ID="{17E1CA93-6046-433E-8A81-E246EE39C388}"/>
+							<Value>0.03</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Line_Cleared" ID="{1E7BC606-C786-48A1-9815-7C763DFA70D1}"/>
+							<Value>15</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="LM_01" ID="{083B6A30-D920-4D33-B4DA-61A3329CD6D2}"/>
+						<CurrentSwitchRef Name="LC_0" ID="{01892000-6EC6-43D5-BEC7-5B605ABC0EC6}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

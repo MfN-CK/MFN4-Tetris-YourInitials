@@ -1,0 +1,23 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class ScoreKeeper : MonoBehaviour
+{
+    public Text linesClearedText;
+
+    int linesCleared = 0;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        linesClearedText.text = linesCleared.ToString();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}

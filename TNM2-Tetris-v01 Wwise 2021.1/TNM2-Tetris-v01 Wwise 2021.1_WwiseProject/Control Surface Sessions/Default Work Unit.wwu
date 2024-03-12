@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{59450188-6168-4363-8C72-88477CB95B47}" SchemaVersion="103">
+	<ControlSurfaceSessions>
+		<WorkUnit Name="Default Work Unit" ID="{59450188-6168-4363-8C72-88477CB95B47}" PersistMode="Standalone">
+			<ChildrenList>
+				<ControlSurfaceSession Name="Default Control Surface Session" ID="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}">
+					<ChildrenList>
+						<ControlSurfaceBindingGroup Name="Global" ID="{FC8274F3-0C3C-4F15-8B95-E348BDF60FF1}">
+							<ChildrenList>
+								<ControlSurfaceBinding Name="Binding" ID="{7FC8F01F-5FC9-4339-AC3C-2ED89CE03E5F}">
+									<PropertyList>
+										<Property Name="HardwareControllerKey" Type="string" Value="Default Device~Ch.1~Note-On~48"/>
+										<Property Name="TargetName" Type="string" Value="TransportPlayStop"/>
+										<Property Name="TargetType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="TargetObject">
+											<ObjectRef Name="rotate" ID="{F4B5EF63-30BF-4D37-80D9-2E90EF664E62}" WorkUnitID="{E8F42F31-3FC0-466A-BCAE-6AD409F07591}"/>
+										</Reference>
+									</ReferenceList>
+								</ControlSurfaceBinding>
+								<ControlSurfaceBinding Name="Binding" ID="{E3A96319-232D-4E98-9673-A238C7E83DF1}">
+									<PropertyList>
+										<Property Name="HardwareControllerKey" Type="string" Value="Default Device~Ch.1~Note-On~60"/>
+										<Property Name="TargetName" Type="string" Value="TransportPlayStop"/>
+										<Property Name="TargetType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="TargetObject">
+											<ObjectRef Name="Start" ID="{80A416E9-5BFB-4B7B-92B3-9145A5E8D5BD}" WorkUnitID="{E8F42F31-3FC0-466A-BCAE-6AD409F07591}"/>
+										</Reference>
+									</ReferenceList>
+								</ControlSurfaceBinding>
+								<ControlSurfaceBinding Name="Binding" ID="{0FCD988C-BCBB-4C77-B558-280A191FFFF4}">
+									<PropertyList>
+										<Property Name="HardwareControllerKey" Type="string" Value="Default Device~Ch.1~Note-On~72"/>
+										<Property Name="TargetName" Type="string" Value="TransportPlayStop"/>
+										<Property Name="TargetType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="TargetObject">
+											<ObjectRef Name="line_cleared" ID="{0AFF0EB6-489F-45DC-8FA7-EB0226A2D880}" WorkUnitID="{E8F42F31-3FC0-466A-BCAE-6AD409F07591}"/>
+										</Reference>
+									</ReferenceList>
+								</ControlSurfaceBinding>
+							</ChildrenList>
+						</ControlSurfaceBindingGroup>
+						<ControlSurfaceBindingGroup Name="Current Selection" ID="{4BE8AEC9-AB9C-4D15-9207-F4B051D1D242}">
+							<PropertyList>
+								<Property Name="GroupType" Type="int16" Value="4"/>
+							</PropertyList>
+							<ChildrenList>
+								<ControlSurfaceBinding Name="Binding" ID="{BFC71B05-45D2-4601-990C-B583D4418AE6}">
+									<PropertyList>
+										<Property Name="HardwareControllerKey" Type="string" Value="Default Device~Ch.1~Note-On~48"/>
+										<Property Name="TargetName" Type="string" Value="TransportPlay"/>
+										<Property Name="TargetType" Type="int16" Value="1"/>
+									</PropertyList>
+								</ControlSurfaceBinding>
+							</ChildrenList>
+						</ControlSurfaceBindingGroup>
+						<ControlSurfaceBindingGroup Name="View Groups" ID="{D1F3481B-9719-47C6-93F4-B3C10B47A725}">
+							<PropertyList>
+								<Property Name="GroupType" Type="int16" Value="3"/>
+							</PropertyList>
+						</ControlSurfaceBindingGroup>
+					</ChildrenList>
+				</ControlSurfaceSession>
+			</ChildrenList>
+		</WorkUnit>
+	</ControlSurfaceSessions>
+</WwiseDocument>

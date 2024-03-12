@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C7FF51C3-A9D5-44CF-8ED5-40EE82E8681D}" SchemaVersion="103">
+	<GameParameters>
+		<WorkUnit Name="TNM_SP24" ID="{C7FF51C3-A9D5-44CF-8ED5-40EE82E8681D}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Line_Cleared" ID="{1E7BC606-C786-48A1-9815-7C763DFA70D1}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="20"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="0.2"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="Line_Cleared_Multi" ID="{17E1CA93-6046-433E-8A81-E246EE39C388}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="5"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

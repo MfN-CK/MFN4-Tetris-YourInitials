@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Chris\Documents\GIT\MFN-SP24\TNM2-SP24-CK-GIT\TNM2-Tetris-v01 Wwise 2021.1\TNM2-Tetris-v01 Wwise 2021.1_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Chris\Documents\GIT\MFN-SP24\TNM2-SP24-CK-GIT\TNM2-Tetris-v01 Wwise 2021.1\TNM2-Tetris-v01 Wwise 2021.1_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Chris\Documents\GIT\MFN-SP24\TNM2-SP24-CK-GIT\TNM2-Tetris-v01 Wwise 2021.1\TNM2-Tetris-v01 Wwise 2021.1_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Chris\Documents\GIT\MFN-SP24\TNM2-SP24-CK-GIT\TNM2-Tetris-v01 Wwise 2021.1\TNM2-Tetris-v01 Wwise 2021.1_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="1997742644">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="3926381278">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1434329938" Name="hard_drop" ObjectPath="\Events\Default Work Unit\hard_drop" DurationType="OneShot" DurationMin="1.717596" DurationMax="1.717596">
+					<IncludedMemoryFiles>
+						<File Id="67253447" Language="SFX">
+							<ShortName>MFN4-SP24-TET-Rhodes-Chord-03.wav</ShortName>
+							<Path>SFX\MFN4-SP24-TET-Rhodes-Chord-03_D79FB2B7.wem</Path>
+						</File>
+						<File Id="107934074" Language="SFX">
+							<ShortName>MFN4-SP24-TET-Rhodes-Chord-02.wav</ShortName>
+							<Path>SFX\MFN4-SP24-TET-Rhodes-Chord-02_D79FB2B7.wem</Path>
+						</File>
+						<File Id="213578634" Language="SFX">
+							<ShortName>vox04.wav</ShortName>
+							<Path>SFX\vox04_D79FB2B7.wem</Path>
+						</File>
+						<File Id="288855412" Language="SFX">
+							<ShortName>vox05.wav</ShortName>
+							<Path>SFX\vox05_D79FB2B7.wem</Path>
+						</File>
+						<File Id="309385946" Language="SFX">
+							<ShortName>vox02.wav</ShortName>
+							<Path>SFX\vox02_D79FB2B7.wem</Path>
+						</File>
+						<File Id="442698993" Language="SFX">
+							<ShortName>Marimba_p_G3.wav</ShortName>
+							<Path>SFX\Marimba_p_G3_D79FB2B7.wem</Path>
+						</File>
+						<File Id="576839839" Language="SFX">
+							<ShortName>MFN4-SP24-TET-Rhodes-Chord-01.wav</ShortName>
+							<Path>SFX\MFN4-SP24-TET-Rhodes-Chord-01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="743031055" Language="SFX">
+							<ShortName>vox03.wav</ShortName>
+							<Path>SFX\vox03_D79FB2B7.wem</Path>
+						</File>
+						<File Id="901192400" Language="SFX">
+							<ShortName>MFN4-SP24-TET-Rhodes-Chord-04.wav</ShortName>
+							<Path>SFX\MFN4-SP24-TET-Rhodes-Chord-04_D79FB2B7.wem</Path>
+						</File>
+						<File Id="945585764" Language="SFX">
+							<ShortName>Marimba_p_C3.wav</ShortName>
+							<Path>SFX\Marimba_p_C3_D79FB2B7.wem</Path>
+						</File>
+						<File Id="993851525" Language="SFX">
+							<ShortName>ds_kick_big_amb.wav</ShortName>
+							<Path>SFX\ds_kick_big_amb_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1014799372" Language="SFX">
+							<ShortName>vox01.wav</ShortName>
+							<Path>SFX\vox01_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4262211538" Name="line_cleared" ObjectPath="\Events\Default Work Unit\line_cleared" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="220490811" Language="SFX">
+							<ShortName>ds_china.wav</ShortName>
+							<Path>SFX\ds_china_1228CDCA.wem</Path>
+						</File>
+						<File Id="777821602" Language="SFX">
+							<ShortName>ds_china.wav</ShortName>
+							<Path>SFX\ds_china_845B1BEC.wem</Path>
+						</File>
+						<File Id="948428810" Language="SFX">
+							<ShortName>ds_china.wav</ShortName>
+							<Path>SFX\ds_china_47658CA0.wem</Path>
+						</File>
+						<File Id="969611478" Language="SFX">
+							<ShortName>ds_china.wav</ShortName>
+							<Path>SFX\ds_china_7D43C525.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{083B6A30-D920-4D33-B4DA-61A3329CD6D2}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{083B6A30-D920-4D33-B4DA-61A3329CD6D2}">
+							<Media>
+								<File Id="220490811"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{32651E3D-E698-48FD-B6B9-F39FAE9973AA}">
+							<Media>
+								<File Id="969611478"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{58E0A970-AA62-4FD9-838D-BB813AC532CE}">
+							<Media>
+								<File Id="777821602"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{CAFEFEDB-F2F4-478C-B7E2-7AF69F1DD2EF}">
+							<Media>
+								<File Id="948428810"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="104485862" Name="move_left" ObjectPath="\Events\Default Work Unit\move_left" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionTrigger>
+						<ActionTriggerEntry Id="104485862" Name="move_left" ObjectPath="\Triggers\TNM-SP24\move_left"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="2156988709" Name="move_right" ObjectPath="\Events\Default Work Unit\move_right" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionTrigger>
+						<ActionTriggerEntry Id="2156988709" Name="move_right" ObjectPath="\Triggers\TNM-SP24\move_right"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="1302771492" Name="rotate" ObjectPath="\Events\Default Work Unit\rotate" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionTrigger>
+						<ActionTriggerEntry Id="1302771492" Name="rotate" ObjectPath="\Triggers\TNM-SP24\rotate"/>
+					</ActionTrigger>
+				</Event>
+				<Event Id="1281810935" Name="Start" ObjectPath="\Events\Default Work Unit\Start" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="67253447" Language="SFX">
+							<ShortName>MFN4-SP24-TET-Rhodes-Chord-03.wav</ShortName>
+							<Path>SFX\MFN4-SP24-TET-Rhodes-Chord-03_D79FB2B7.wem</Path>
+						</File>
+						<File Id="81110922" Language="SFX">
+							<ShortName>MUS-Quest-Loop-Layer03.wav</ShortName>
+							<Path>SFX\MUS-Quest-Loop-Layer03_D79FB2B7.wem</Path>
+						</File>
+						<File Id="107934074" Language="SFX">
+							<ShortName>MFN4-SP24-TET-Rhodes-Chord-02.wav</ShortName>
+							<Path>SFX\MFN4-SP24-TET-Rhodes-Chord-02_D79FB2B7.wem</Path>
+						</File>
+						<File Id="213578634" Language="SFX">
+							<ShortName>vox04.wav</ShortName>
+							<Path>SFX\vox04_D79FB2B7.wem</Path>
+						</File>
+						<File Id="288855412" Language="SFX">
+							<ShortName>vox05.wav</ShortName>
+							<Path>SFX\vox05_D79FB2B7.wem</Path>
+						</File>
+						<File Id="301458377" Language="SFX">
+							<ShortName>MFN306-RPG-CK-Night-Intro-124bpm-v1.wav</ShortName>
+							<Path>SFX\MFN306-RPG-CK-Night-Intro-124bpm-v1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="309385946" Language="SFX">
+							<ShortName>vox02.wav</ShortName>
+							<Path>SFX\vox02_D79FB2B7.wem</Path>
+						</File>
+						<File Id="392001094" Language="SFX">
+							<ShortName>MFN306-RPG-CK-Night-Loop-124bpm-v1.wav</ShortName>
+							<Path>SFX\MFN306-RPG-CK-Night-Loop-124bpm-v1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="442698993" Language="SFX">
+							<ShortName>Marimba_p_G3.wav</ShortName>
+							<Path>SFX\Marimba_p_G3_D79FB2B7.wem</Path>
+						</File>
+						<File Id="474612100" Language="SFX">
+							<ShortName>MUS-Quest-Loop-Layer01.wav</ShortName>
+							<Path>SFX\MUS-Quest-Loop-Layer01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="576839839" Language="SFX">
+							<ShortName>MFN4-SP24-TET-Rhodes-Chord-01.wav</ShortName>
+							<Path>SFX\MFN4-SP24-TET-Rhodes-Chord-01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="690254163" Language="SFX">
+							<ShortName>MUS-Quest-Loop-Layer05-PercA.wav</ShortName>
+							<Path>SFX\MUS-Quest-Loop-Layer05-PercA_D79FB2B7.wem</Path>
+						</File>
+						<File Id="743031055" Language="SFX">
+							<ShortName>vox03.wav</ShortName>
+							<Path>SFX\vox03_D79FB2B7.wem</Path>
+						</File>
+						<File Id="901192400" Language="SFX">
+							<ShortName>MFN4-SP24-TET-Rhodes-Chord-04.wav</ShortName>
+							<Path>SFX\MFN4-SP24-TET-Rhodes-Chord-04_D79FB2B7.wem</Path>
+						</File>
+						<File Id="945585764" Language="SFX">
+							<ShortName>Marimba_p_C3.wav</ShortName>
+							<Path>SFX\Marimba_p_C3_D79FB2B7.wem</Path>
+						</File>
+						<File Id="993851525" Language="SFX">
+							<ShortName>ds_kick_big_amb.wav</ShortName>
+							<Path>SFX\ds_kick_big_amb_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1014799372" Language="SFX">
+							<ShortName>vox01.wav</ShortName>
+							<Path>SFX\vox01_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="1763793220" Name="Line_Cleared_Multi" ObjectPath="\Game Parameters\TNM_SP24\Line_Cleared_Multi"/>
+				<GameParameter Id="4262211538" Name="Line_Cleared" ObjectPath="\Game Parameters\TNM_SP24\Line_Cleared"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="1217496515" Name="LineMultiple" ObjectPath="\Switches\TNM-sp24\LineMultiple" GUID="{F1CAD303-C7C3-486A-BF50-EA879C06FA61}">
+					<Switches>
+						<Switch Id="1980385098" Name="LM_01" ObjectPath="\Switches\TNM-sp24\LineMultiple\LM_01" GUID="{083B6A30-D920-4D33-B4DA-61A3329CD6D2}"/>
+						<Switch Id="1980385097" Name="LM_02" ObjectPath="\Switches\TNM-sp24\LineMultiple\LM_02" GUID="{CAFEFEDB-F2F4-478C-B7E2-7AF69F1DD2EF}"/>
+						<Switch Id="1980385096" Name="LM_03" ObjectPath="\Switches\TNM-sp24\LineMultiple\LM_03" GUID="{32651E3D-E698-48FD-B6B9-F39FAE9973AA}"/>
+						<Switch Id="1980385103" Name="LM_04" ObjectPath="\Switches\TNM-sp24\LineMultiple\LM_04" GUID="{58E0A970-AA62-4FD9-838D-BB813AC532CE}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="3306375003" Name="Lines_Cleared" ObjectPath="\Switches\TNM-sp24\Lines_Cleared" GUID="{3B988B64-21F0-493C-83ED-C8AC7958AF9A}">
+					<Switches>
+						<Switch Id="4181236003" Name="LC_0" ObjectPath="\Switches\TNM-sp24\Lines_Cleared\LC_0" GUID="{01892000-6EC6-43D5-BEC7-5B605ABC0EC6}"/>
+						<Switch Id="4181236001" Name="LC_2" ObjectPath="\Switches\TNM-sp24\Lines_Cleared\LC_2" GUID="{2DFA8AA9-BB73-431F-A271-E4364BE66895}"/>
+						<Switch Id="4181236000" Name="LC_3" ObjectPath="\Switches\TNM-sp24\Lines_Cleared\LC_3" GUID="{0B48CA3D-D612-4503-8350-0A006CD4F4F1}"/>
+						<Switch Id="4181236002" Name="LC_1" ObjectPath="\Switches\TNM-sp24\Lines_Cleared\LC_1" GUID="{D686C0D4-3A6D-494B-800F-A95BDAF0B0CB}"/>
+						<Switch Id="4181236007" Name="LC_4" ObjectPath="\Switches\TNM-sp24\Lines_Cleared\LC_4" GUID="{1F6C421F-4BA6-4523-BA93-922AB3688884}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+			<Triggers>
+				<Trigger Id="104485862" Name="move_left" ObjectPath="\Triggers\TNM-SP24\move_left"/>
+				<Trigger Id="1302771492" Name="rotate" ObjectPath="\Triggers\TNM-SP24\rotate"/>
+				<Trigger Id="2156988709" Name="move_right" ObjectPath="\Triggers\TNM-SP24\move_right"/>
+			</Triggers>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

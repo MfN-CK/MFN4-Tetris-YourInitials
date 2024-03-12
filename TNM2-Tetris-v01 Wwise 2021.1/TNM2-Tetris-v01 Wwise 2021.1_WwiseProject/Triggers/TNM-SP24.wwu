@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{099E0256-8FE6-49F7-910E-D51DF0ACDFFB}" SchemaVersion="103">
+	<Triggers>
+		<WorkUnit Name="TNM-SP24" ID="{099E0256-8FE6-49F7-910E-D51DF0ACDFFB}" PersistMode="Standalone">
+			<ChildrenList>
+				<Trigger Name="move_left" ID="{3BA4F271-8F7A-46E8-8B54-D5E6B8AC8240}"/>
+				<Trigger Name="move_right" ID="{415888C6-527B-4ACA-9F70-F7EFC8F8FD58}"/>
+				<Trigger Name="rotate" ID="{09D7986D-9F6B-44B6-B471-18F96F78DA28}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Triggers>
+</WwiseDocument>

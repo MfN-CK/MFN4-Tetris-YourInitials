@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{96363FB5-4C64-4ED0-B384-97945C583C1D}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{96363FB5-4C64-4ED0-B384-97945C583C1D}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{066E3E99-F56C-4E73-A85A-FD9A86E96613}">
+					<ObjectInclusionList>
+						<ObjectRef Name="line_cleared" ID="{0AFF0EB6-489F-45DC-8FA7-EB0226A2D880}" WorkUnitID="{E8F42F31-3FC0-466A-BCAE-6AD409F07591}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="hard_drop" ID="{AFF9E2DF-65EF-4962-BFA7-3ADB7DBFD7BF}" WorkUnitID="{E8F42F31-3FC0-466A-BCAE-6AD409F07591}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Start" ID="{80A416E9-5BFB-4B7B-92B3-9145A5E8D5BD}" WorkUnitID="{E8F42F31-3FC0-466A-BCAE-6AD409F07591}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="move_right" ID="{5670271D-0C28-4C23-B52F-F290DB36B188}" WorkUnitID="{E8F42F31-3FC0-466A-BCAE-6AD409F07591}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="rotate" ID="{F4B5EF63-30BF-4D37-80D9-2E90EF664E62}" WorkUnitID="{E8F42F31-3FC0-466A-BCAE-6AD409F07591}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="move_left" ID="{D11AD166-E8F3-4F20-AF39-A3986332EBDD}" WorkUnitID="{E8F42F31-3FC0-466A-BCAE-6AD409F07591}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

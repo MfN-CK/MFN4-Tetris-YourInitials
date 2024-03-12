@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E8F42F31-3FC0-466A-BCAE-6AD409F07591}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{E8F42F31-3FC0-466A-BCAE-6AD409F07591}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Start" ID="{80A416E9-5BFB-4B7B-92B3-9145A5E8D5BD}">
+					<ChildrenList>
+						<Action Name="" ID="{CE091A39-DDBF-43CB-9CE9-41D56B7F791B}" ShortID="521516233">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="v01" ID="{EF41498A-5356-4AD0-B8F1-757ABD9038DF}" WorkUnitID="{860B336D-F4BA-4F1B-A094-4DB66070F333}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="move_left" ID="{D11AD166-E8F3-4F20-AF39-A3986332EBDD}">
+					<ChildrenList>
+						<Action Name="" ID="{7B0763D8-9011-4446-9C72-1F3952C32C03}" ShortID="805847380">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="35"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="move_left" ID="{3BA4F271-8F7A-46E8-8B54-D5E6B8AC8240}" WorkUnitID="{099E0256-8FE6-49F7-910E-D51DF0ACDFFB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="move_right" ID="{5670271D-0C28-4C23-B52F-F290DB36B188}">
+					<ChildrenList>
+						<Action Name="" ID="{D5EF7D4B-DC9D-4148-96AD-D27BD004597C}" ShortID="368669950">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="35"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="move_right" ID="{415888C6-527B-4ACA-9F70-F7EFC8F8FD58}" WorkUnitID="{099E0256-8FE6-49F7-910E-D51DF0ACDFFB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="rotate" ID="{F4B5EF63-30BF-4D37-80D9-2E90EF664E62}">
+					<ChildrenList>
+						<Action Name="" ID="{90ABD82C-70CB-42C2-8262-CB3F6CCDC112}" ShortID="654658402">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="35"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="rotate" ID="{09D7986D-9F6B-44B6-B471-18F96F78DA28}" WorkUnitID="{099E0256-8FE6-49F7-910E-D51DF0ACDFFB}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="hard_drop" ID="{AFF9E2DF-65EF-4962-BFA7-3ADB7DBFD7BF}">
+					<ChildrenList>
+						<Action Name="" ID="{400E6FC0-09A0-4929-8B4D-926E4D40D3CF}" ShortID="163790161">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stinger-Hard-Drop" ID="{9AD3772C-B11D-45EB-9F9C-40A34E0C932A}" WorkUnitID="{860B336D-F4BA-4F1B-A094-4DB66070F333}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="line_cleared" ID="{0AFF0EB6-489F-45DC-8FA7-EB0226A2D880}">
+					<ChildrenList>
+						<Action Name="" ID="{23C6CE38-137F-4F26-BC71-DF012ABFF0D1}" ShortID="524226729">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LIneCleared Stinger" ID="{69AF3ED9-01AD-413E-A4BB-E70988272381}" WorkUnitID="{DD9A0F56-2478-49AF-B653-9BCDBAC23E4D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

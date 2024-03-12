@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{342666FC-8A60-4BC6-B3EF-3C7162F6A2E4}" SchemaVersion="103">
+	<Switches>
+		<WorkUnit Name="TNM-sp24" ID="{342666FC-8A60-4BC6-B3EF-3C7162F6A2E4}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Lines_Cleared" ID="{3B988B64-21F0-493C-83ED-C8AC7958AF9A}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="LC_0" ID="{01892000-6EC6-43D5-BEC7-5B605ABC0EC6}"/>
+						<Switch Name="LC_2" ID="{2DFA8AA9-BB73-431F-A271-E4364BE66895}"/>
+						<Switch Name="LC_3" ID="{0B48CA3D-D612-4503-8350-0A006CD4F4F1}"/>
+						<Switch Name="LC_1" ID="{D686C0D4-3A6D-494B-800F-A95BDAF0B0CB}"/>
+						<Switch Name="LC_4" ID="{1F6C421F-4BA6-4523-BA93-922AB3688884}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="Line_Cleared" ID="{1E7BC606-C786-48A1-9815-7C763DFA70D1}"/>
+						<Curve Name="" ID="{FBF7C2D0-4E42-46EA-9268-DA2B47EE6E65}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>1</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>0.9564</XPos>
+									<YPos>4</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>4.782</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>9.81716</XPos>
+									<YPos>3</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>14.88671</XPos>
+									<YPos>5</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>20</XPos>
+									<YPos>5</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+				<SwitchGroup Name="LineMultiple" ID="{F1CAD303-C7C3-486A-BF50-EA879C06FA61}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="LM_01" ID="{083B6A30-D920-4D33-B4DA-61A3329CD6D2}"/>
+						<Switch Name="LM_02" ID="{CAFEFEDB-F2F4-478C-B7E2-7AF69F1DD2EF}"/>
+						<Switch Name="LM_03" ID="{32651E3D-E698-48FD-B6B9-F39FAE9973AA}"/>
+						<Switch Name="LM_04" ID="{58E0A970-AA62-4FD9-838D-BB813AC532CE}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="Line_Cleared_Multi" ID="{17E1CA93-6046-433E-8A81-E246EE39C388}"/>
+						<Curve Name="" ID="{FE97E5BA-9BD3-4769-9AF6-F917A00A8E8F}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>0</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>0.97046</XPos>
+									<YPos>1</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>1.92686</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>2.89733</XPos>
+									<YPos>3</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>3.95921</XPos>
+									<YPos>4</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>5</XPos>
+									<YPos>0</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>
